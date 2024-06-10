@@ -46,6 +46,8 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import QuestForm from "layouts/Quests";
 import GameForm from "layouts/Games";
+import Gameform from "layouts/getGames";
+// Gameform
 // GameForm
 // QuestForm
 
@@ -135,6 +137,14 @@ const routes = [
     route: "/game",
     component: <GameForm/>,
   },
+  {
+    type: "collapse",
+    name: "Games",
+    key: "get games",
+    icon: <Icon fontSize="small">Games</Icon>,
+    route: "/getgame",
+    component: <Gameform/>,
+  }
   
   
 ];

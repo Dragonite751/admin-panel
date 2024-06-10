@@ -6,8 +6,10 @@ import MDTypography from "components/MDTypography";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
-const { authToken, setAuthToken, isLoggedIn, setIsLoggedIn } = useAuth();
+import { useAuth } from 'context/authContext';
+
 const GameForm = () => {
+  const { authToken, setAuthToken, isLoggedIn, setIsLoggedIn } = useAuth();
   const { control, handleSubmit, formState: { errors } ,reset} = useForm();
 
   const onSubmit = async (data) => {
