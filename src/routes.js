@@ -42,8 +42,6 @@ import Billing from "layouts/billing";
 import RTL from "layouts/rtl";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
-import Trips from "layouts/tripdetail";
-import Itinerary from "layouts/tripdetail/itinerary";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import QuestForm from "layouts/Quests";
